@@ -1,0 +1,31 @@
+{
+  "admin_records": [
+    {
+      "event": "Changing Group Admin",
+      "session": {
+        "created_timestamp": 1560116991,
+        "ip_address": "70.79.128.69",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
+        "datr_cookie": "R9ef********************"
+      }
+    },
+    {
+      "event": "Username",
+      "session": {
+        "created_timestamp": 1559151929,
+        "ip_address": "70.79.128.69",
+        "user_agent": "",
+        "datr_cookie": ""
+      }
+    },
+    {
+      "event": "Username",
+      "session": {
+        "created_timestamp": 1559151929,
+        "ip_address": "70.79.128.69",
+        "user_agent": "",
+        "datr_cookie": ""
+      }
+    }
+  ]
+}

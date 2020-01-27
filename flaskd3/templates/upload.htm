@@ -1,0 +1,16 @@
+{%extends "layout.htm"%}
+{%block content%}
+        {{ dropzone.load_css() }}
+        <h1>Drop you facebook json file here</h1>
+            {{ dropzone.create(action='http://127.0.0.1:5000/upload') }}
+            {{ dropzone.config() }}
+            {{ dropzone.style('border: 2px dashed #0087F7; margin: 10%; min-height: 400px;') }}
+            {{ dropzone.load_js() }}
+
+
+    <h1>file uploader</h1>
+    <form id="upload-form" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="file_extension|audio/*|video/*|image/*|media_type|json/*" multiple>
+        <input type="submit" value="send"> 
+{%endblock content%}
+       
