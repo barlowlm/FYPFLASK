@@ -3,6 +3,9 @@ from flaskd3 import db, login_manager
 from flask_login import UserMixin
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from flask import current_app
+
+
+
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
@@ -46,6 +49,9 @@ class Post(db.Model):
     #image_file = db.Column(db.String(20), nullable=True, default='default.png')
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
+    def __repr__(self):
+        return f"Post('{self.title}', '{self.date_posted}')"
+
 """class Commenting(db.Model):
     comments = db.Column(db.String(500), unique=False)
     timestamp = db.Column(db.String(12), primary_key=True)
@@ -58,5 +64,14 @@ class Post(db.Model):
     #user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 """
 
-def __repr__(self):
-    return f"Post('{self.title}', '{self.date_posted}')"
+class FileContent(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50))
+    data = db.Column(db.String(999999999))
+    
+    def __rep__(self):
+        return f"FileContent('{self.name}')"
+
+
+
+

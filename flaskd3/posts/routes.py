@@ -18,6 +18,10 @@ def new_post():
         return redirect(url_for('main.home'))
     return render_template('create_post.htm', title='New Post', form=form, legend='New Post')
 
+
+
+
+
 @posts.route('/post/<int:post_id>')
 def post(post_id):
     post = Post.query.get_or_404(post_id)
