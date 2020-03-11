@@ -1,0 +1,158 @@
+{
+  "active_sessions": [
+    {
+      "created_timestamp": 1580825144,
+      "updated_timestamp": 1581805548,
+      "ip_address": "134.226.214.219",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+      "datr_cookie": "MHo5********************",
+      "device": "Mac",
+      "location": "Dublin, Ireland",
+      "app": "Chrome"
+    },
+    {
+      "created_timestamp": 1576591228,
+      "updated_timestamp": 1581785286,
+      "ip_address": "134.226.214.219",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 [FBAN/MessengerForiOS;FBAV/251.0.0.40.118;FBBV/197413171;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/11.4.1;FBSS/2;FBID/phone;FBLC/en_GB;FBOP/5]",
+      "datr_cookie": "xiBI********************",
+      "device": "iPhone 6s",
+      "location": "Dublin, Ireland",
+      "app": "Messenger"
+    },
+    {
+      "created_timestamp": 1580306444,
+      "updated_timestamp": 1581748163,
+      "ip_address": "2a02:8084:2160:3d00:5dee:b31c:44c0:c16a",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 [FBAN/FBIOS;FBAV/256.0.0.52.115;FBBV/196759829;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/11.4.1;FBSS/2;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/0;FBCR/vodafone IE]",
+      "datr_cookie": "w49H********************",
+      "device": "iPhone 6s",
+      "location": "Dublin, Ireland",
+      "app": "Facebook app"
+    },
+    {
+      "created_timestamp": 1577704202,
+      "updated_timestamp": 1580823191,
+      "ip_address": "93.157.87.94",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+      "datr_cookie": "KQsJ********************",
+      "device": "Mac",
+      "location": "Ramat Gan, Israel",
+      "app": "Chrome"
+    },
+    {
+      "created_timestamp": 1577017840,
+      "updated_timestamp": 1580319785,
+      "ip_address": "2a01:cb14:579:3b00:1cc1:7120:161f:4035",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1",
+      "datr_cookie": "JMQx********************",
+      "device": "iPad",
+      "location": "Lyon, France",
+      "app": "Mobile Safari"
+    },
+    {
+      "created_timestamp": 1580290503,
+      "ip_address": "134.226.214.219",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",
+      "datr_cookie": "vVEx********************",
+      "device": "Mac",
+      "location": "Dublin, Ireland",
+      "app": "Chrome"
+    },
+    {
+      "created_timestamp": 1576631520,
+      "updated_timestamp": 1578572234,
+      "ip_address": "213.233.150.103",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 [FBAN/FBIOS;FBAV/224.0.0.50.109;FBBV/157638993;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iOS;FBSV/11.4.1;FBSS/2;FBCR/vodafone IE;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/0]",
+      "datr_cookie": "yhkX********************",
+      "device": "iPhone 6s",
+      "location": "Dublin, Ireland",
+      "app": "Facebook app"
+    },
+    {
+      "created_timestamp": 1578424247,
+      "updated_timestamp": 1578442949,
+      "ip_address": "2a00:1370:812f:6ff6:d487:84d7:de51:751a",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",
+      "datr_cookie": "s9cU********************",
+      "device": "Device type unknown",
+      "location": "Moscow, Russia",
+      "app": "Messenger"
+    },
+    {
+      "created_timestamp": 1571780127,
+      "updated_timestamp": 1577627647,
+      "ip_address": "2a00:1370:812f:6ff6:f4df:8aef:2813:1503",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+      "datr_cookie": "F3av********************",
+      "device": "Mac",
+      "location": "Moscow, Russia",
+      "app": "Chrome"
+    },
+    {
+      "created_timestamp": 1577017959,
+      "updated_timestamp": 1577198174,
+      "ip_address": "2a01:cb14:579:3b00:95a3:33c9:8dc1:5872",
+      "user_agent": "Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 [FBAN/MessengerForiOS;FBAV/244.0.0.41.220;FBBV/188014603;FBDV/iPad4,1;FBMD/iPad;FBSN/iOS;FBSV/11.3.1;FBSS/2;FBID/tablet;FBLC/fr_FR;FBOP/5]",
+      "datr_cookie": "XiIC********************",
+      "device": "iPad Air",
+      "location": "Lyon, France",
+      "app": "Messenger"
+    },
+    {
+      "created_timestamp": 1573466222,
+      "updated_timestamp": 1576507816,
+      "ip_address": "134.226.214.213",
+      "datr_cookie": "bjDJ********************",
+      "device": "",
+      "location": "Dublin, Ireland",
+      "app": ""
+    },
+    {
+      "created_timestamp": 1573550744,
+      "updated_timestamp": 1576504896,
+      "ip_address": "134.226.214.213",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBAV/150.0.0.32.132;FBBV/80278251;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/12.4.3;FBSS/2;FBCR/vodafoneIE;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/82362498]",
+      "datr_cookie": "QI73********************",
+      "device": "iPhone 6",
+      "location": "Dublin, Ireland",
+      "app": "Facebook app"
+    },
+    {
+      "created_timestamp": 1574952240,
+      "ip_address": "134.226.214.210",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36",
+      "datr_cookie": "2Nzf********************",
+      "device": "Mac",
+      "location": "Dublin, Ireland",
+      "app": "Chrome"
+    },
+    {
+      "created_timestamp": 1573466129,
+      "ip_address": "2a02:8084:2160:3d00:9c24:7bbb:332f:7b2",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/MessengerForiOS;FBAV/157.0.0.48.96;FBBV/96777264;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/12.2;FBSS/2;FBCR/vodafoneIE;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/0]",
+      "datr_cookie": "ETDJ********************",
+      "device": "iPhone 6",
+      "location": "Dublin, Ireland",
+      "app": "Messenger"
+    },
+    {
+      "created_timestamp": 1573337887,
+      "ip_address": "80.233.61.246",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/MessengerForiOS;FBAV/236.0.0.51.115;FBBV/176771024;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/13.1.2;FBSS/3;FBID/phone;FBLC/en_GB;FBOP/5]",
+      "datr_cookie": "ZAP9********************",
+      "device": "iPhone 7 Plus",
+      "location": "Dublin, Ireland",
+      "app": "Messenger"
+    },
+    {
+      "created_timestamp": 1573173235,
+      "ip_address": "2a02:8084:2160:3d00:152e:bd7f:d480:e860",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:71.0) Gecko/20100101 Firefox/71.0",
+      "datr_cookie": "LDTE********************",
+      "device": "Device type unknown",
+      "location": "Dublin, Ireland",
+      "app": ""
+    }
+  ]
+}

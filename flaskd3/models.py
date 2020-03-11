@@ -5,7 +5,6 @@ from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from flask import current_app
 
 
-
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
@@ -46,7 +45,7 @@ class Post(db.Model):
     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     content = db.Column(db.Text, nullable=False)
     #add graph svg here
-    #image_file = db.Column(db.String(20), nullable=True, default='default.png')
+    image_file = db.Column(db.String(50), nullable=False, default='default.png')
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
     def __repr__(self):

@@ -6,5 +6,6 @@ from flask_wtf.file import FileField, FileAllowed
 class PostForm(FlaskForm):
     title = StringField('Title', validators=[DataRequired()])
     content = TextAreaField('Content', validators=[DataRequired()])
-    picture = FileField('Update Profile Picture', validators=[FileAllowed(['jpg', 'png'])])
+    #picture = FileField('Update Profile Picture', validators=[FileAllowed(['jpg', 'png'])])
+    image_file = FileField('Update Graph Picture', validators=[FileAllowed(['jpg', 'png'])])
     submit = SubmitField('Post')

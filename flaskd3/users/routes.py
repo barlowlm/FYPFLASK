@@ -20,7 +20,6 @@ def register():
         user = User(username = form.username.data, email= form.email.data, password=hashed_password)
         db.session.add(user)
         db.session.commit()
-
         flash('Your account has now been created', 'success')
         return redirect(url_for('users.login'))
     return render_template('register.htm', title='Register', form=form)
@@ -51,14 +50,14 @@ def account():
     form = UpdateAccountForm()
     if form.validate_on_submit():
         if form.picture.data:
-            picture_file = save_picture(form.picture.data)
+            picture_file = save_picture(form_picture=form.picture.data, path= 'profile_pics/')
             current_user.image_file = picture_file
         current_user.username = form.username.data
         current_user.email = form.email.data
         db.session.commit()
         flash('your account has been updated!', 'success')
         return redirect(url_for('users.account'))
-    elif request.method == 'GET':
+    elif request.method == 'GET': 
         form.username.data = current_user.username
         form.email.data = current_user.email
     image_file = url_for('static', filename='profile_pics/' + current_user.image_file)

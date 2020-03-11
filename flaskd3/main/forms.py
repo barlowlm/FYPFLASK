@@ -25,3 +25,11 @@ class UpdateAccountForm(FlaskForm):
             email = User.query.filter_by(email=email.data).first()
             if email:
                 raise ValidationError('That email is taken. Please choose another one')
+
+
+class SubmitGraphForm(FlaskForm):
+    #title = StringField('Title', validators=[DataRequired()])
+    #content = TextAreaField('Content', validators=[DataRequired()])
+    #picture = FileField('Update Profile Picture', validators=[FileAllowed(['jpg', 'png'])])
+    image_file = FileField('Update Graph Picture', validators=[FileAllowed(['jpg', 'png'])])
+    submit = SubmitField('Post')

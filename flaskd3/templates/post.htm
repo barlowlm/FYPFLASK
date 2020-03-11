@@ -1,6 +1,6 @@
 {%extends "layout.htm"%}
 {%block content%}
-    <h1>Home Page</h1>
+    <h1>Post</h1>
     <!---file drop box attempt-->
     <!---
     <div>
@@ -27,6 +27,7 @@
               </div>
               <h2 class="article-title">{{ post.title }}</h2>
               <p class="article-content">{{ post.content }}</p>
+              <img class="img-fluid" src="{{url_for('static', filename='graph_pics/' + post.image_file)}}">
             </div>
             </article>
           <!-- Modal -->
